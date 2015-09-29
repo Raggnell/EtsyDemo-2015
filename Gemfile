@@ -8,6 +8,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
+gem 'carrierwave'
+gem 'carrierwave-dropbox'
 
 group :production do
   gem 'pg'
