@@ -78,3 +78,4 @@ class OrdersController < ApplicationController
       params.require(:order).permit(:address, :city, :state)
     end
 end
+
